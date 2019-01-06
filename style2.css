@@ -1,0 +1,44 @@
+.small{
+	float: left;
+	border: 2px solid black;
+	height: 40%;
+	width: 40%;
+	overflow: scroll;
+}
+.small2{
+	float: right;
+	border: 2px solid black;
+	height: 70px;
+	width: 40%;
+	overflow: hidden;
+}
+.small3{
+	clear: both;
+	border: 2px solid black;
+	height: 50%;
+	width: 100%;
+	overflow: auto;
+}
+
+h1 + p:first-letter{
+	font-size: 300%;
+	float: left;
+	font-family: sans-serif;
+	padding: 0px 5px;	
+}
+p[class=~"hl"] {font-weight: bold; color: yellow;}
+.test{
+	text-decoration: underline;
+}
+.nav-bar{
+	position: fixed;
+	float: left;
+	height: 100%;
+	width: 30px;
+	color: violet;
+	border: 2px red solid;
+}
+.flex-container{
+
+}
+

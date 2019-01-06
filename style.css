@@ -1,0 +1,28 @@
+body { background-color:lightgreen; }
+a {
+	border-width: 1px;
+	border-style: dashed;
+	border-color: red;
+	border-top-width: 0px;
+	border-left-width: 3px;
+	border-left-color: green;
+}
+a:link { color:aqua; }
+a:active { color:orange; }
+a:visited { color:turquoise; }
+a:hover { color:violet; }
+a.nav { font-weight : bold;
+	text-decoration: none; }
+a.nav:hover, a.nav: active { background-color: red;
+       color: black; }
+a.nav:link, a.nav:visited { color: pink; }       
+p{ 
+	color:violet; 
+}
+div.box {
+	background-color: aqua;	
+	color: aqua;
+	box-shadow: 10px 10px grey;
+	width: 50%;
+}
+
