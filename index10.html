@@ -9,6 +9,7 @@
 	</head>
 
 	<body>
+		<form>
 		<label>
 			Your move:
 			<select name="gameopt">
@@ -31,6 +32,32 @@
 		<label style="color: red">
 			Search:<input type="search" id="s">
 		</label>
+
+		<input type="reset" value="Clear Form">
+		<br>
+		<label>Check this box to recieve spam <input type="checkbox" id="spam" checked></label>
+		<br>
+		<p>Select a color</p>
+		<label style="display: block;"><input type="radio" name="color" value="purple">Red</label>
+		<label style="display: block;"><input type="radio" name="color" value="pink">Red</label>
+		<label style="display: block;"><input type="radio" name="color" value="green">Red</label>
+		<br>
+		<input type="image" src="placeholder.jpg" id="submitformbtn">
+		</form>
+		<input type="button" id="click" value="click">
+		<label for="question" style="display: block;">Let me know how you really feel.</label>
+		<textarea name="question" rows="5" cols="10" placeholder="Enter text here"></textarea>
+		<label for="location">Please choose a location</label>
+		<select id="location" size="3">
+			<option>Cafe</option>
+			<option>Library</option>
+			<option>Bookstore</option>
+			<option>Chocolate store</option>
+			<option value="sc" selected>Space classroom</option>
+		</select>
+
+
+
 	</body>
 </html>
 
