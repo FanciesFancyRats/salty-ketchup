@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<style>
+input[type="number"]:focus:in-range{
+
+	background: green;
+}
+
+input[type="number"]:focus:out-of-range{
+	background: red;
+}
+/** {color: gray;}*/
+h1#title{color: black;}
+/*#toolbar {color: white; background: black;}
+#toolbar a:link {color: white;}
+#toolbar a:visited {color: grey;}*/
+p {color: blue;}
+li {color: magenta;}
+p#bright {color: silver;}
+p#bright {color: orange;}
+
+/*a:link{font-weight: bold;}
+a:visited{font-style: italic;}
+a:focus{color:green;}
+a:hover{color:red;}
+a:active{background:yellow;}*/
+#toolbar {color: white; background:black;}
+#toolbar a {color: inherit;}
+#song{border: 2px green solid;}
+#song li{border: inherit;}
+#song strong{color: initial;}
+#remember {font-size: x-large;}
+p{
+	font-weight: 100;
+}
+p span{
+	font-weight: 400;
+	font-size: larger;
+}
+strong{ font-weight: bolder;
+	font-size: smaller;}
+strong b{font-weight: bolder;}
+small{ font-size: 25%;}
+</style>
+	</head>
+	<body>
+	<input id="one" type="number" min="0" max="100">
+	<h1 id="title">More <em>Words</em></h1>
+	<img src="health.png"></img>
+	<ul id="song">
+		<li>Avoidance bath bunker</li>
+		<li>convergence Downhill FOREST</li>
+		<li>GAL <strong>gekanheya </strong> gone HAP</li>
+		<li>INSIDE lessons NOTHAP or OUTSIDE</li>
+		<li>OUTSIDE OVER panics Pianonism prison ROOM</li>
+	</ul>
+	</body>
+	<p>Can you hear me? <span>I don't think you can<strong> parse</strong> </span>it right now though</p>
+	<p style="color: black !important;">I mean <em>probably</em> at <strong>this <b>point</b></strong> anyway</p>
+	<p id="bright">Well, hello there!</p>
+	<p id="remember">Glitches are<small> inevitable</small></p>
+	<nav id="toolbar"><a href="#notTitle">Home</a>| <a href="#title">About</a>| <a href="#title">Service</a>| <a href="#title">Contact</a></nav>
+</html>

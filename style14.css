@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: silver;
+}
+ul.nav{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: black;
+}
+ul.nav > li{
+	border: 1px solid black;
+	height: auto;
+	width: 120px;
+	float: left;
+	display: block;
+}
+ul ul{
+	display: none;
+}
+ul:hover > ul{
+	display: block;
+	float: left;
+	width: 120px;
+	overflow: hidden;
+	height: auto;
+}
+header{
+	background-color: black;
+	color: white;
+}
+

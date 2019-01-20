@@ -1,0 +1,19 @@
+h1, h2, h3, h4, h5, h6 {
+	color: gray; background: white; padding: 0.5em; border: 1px solid black; font-family: Charcoal, sans-serif;
+}
+a[href^="#s"]{
+	font-weight: bold;
+}
+a[href*="2"]:after {content: "xXx"}
+a[href*="2"]:before {content: "xXx"}
+
+tr:nth-child(2n){
+	background-color: silver;
+}
+a:link {color: navy;}
+a:visited {color: grey;}
+a:focus {color: orange;}
+a:hover {color: red;}
+a:active { color: yellow;}
+
+body article *:hover{ font-weight: bold;}
