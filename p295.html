@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {line-height: 1em;}
+big {font-size: 250%; line-height: 1em;}
+p.two{line-height: 1.8em;}
+a:link {border: 5px solid blue;}
+p.three{ line-height: 1.5;}
+big.three{font-size: 250%;}
+p.four{ font-size: 15px; line-height: 1em;}
+span.four{ background: #FAA; padding-left: 10px; padding-right: 10px;}
+p.five{ font-size: 15px; line-height: 1em; box-decoration-break: clone;}
+span.five{ background: #FAA; padding-left: 10px; padding-right: 10px; box-decoration-break: clone;}
+
+</style>
+</head>
+<body>
+	<p>
+	Not only does this paragraph have "normal" text, but it also<br>
+	contains a line in which <big>some big text</big> is found.</br>
+	</p>
+
+	<p>
+	Not only does this paragraph have "normal" text, but it also<br>
+	contains a line in which <a href="something.html">some hyperlink text</a> is found.</br>
+	</p>
+	<p class="two">
+	Not only does this paragraph have "normal" text, but it also<br>
+	contains a line in which <a href="something.html">some hyperlink text</a> is found.</br>
+	</p>
+
+	<p>
+	Not only does this paragraph have "normal" text, but it also<br>
+	contains a line in which <a style="line-height: 1.8em;" href="something.html">some hyperlink text</a> is found.</br>
+	</p>
+
+	<p>
+	Not only does this paragraph have "normal text, but also<br>
+	contains<small>small text</small> along with <big class="three">Some big text</big> is found.<br>
+	This is a demonstration of using a scaling factor for line-height, which should be inherited.
+	</p>
+
+	
+	<p class="four">A given commodity, e.g., a quarter of wheat is exchanged for x blacking, y silk, or z gold, &c. – in short,<br> 
+	for other commodities in the most different proportions. <span class ="four">Instead of one exchange value, <br>
+	the wheat has, therefore, a great many. But since x blacking, y silk, or z gold &c., each represents the exchange <br>
+	value of one quarter of wheat</span>, x blacking, y silk, z gold, &c., must, as exchange values, be replaceable by each other<br>
+, or equal to each other. Therefore, first: the valid exchange values of a given commodity express something equal; secondly<br>
+, exchange value, generally, is only the mode of expression, the phenomenal form, of something contained in it, yet distinguishable from it.</p>
+
+	<p class="five">A given commodity, e.g., a quarter of wheat is exchanged for x blacking, y silk, or z gold, &c. – in short,<br> 
+	for other commodities in the most different proportions. <span class ="five">Instead of one exchange value, <br>
+	the wheat has, therefore, a great many. But since x blacking, y silk, or z gold &c., each represents the exchange <br>
+	value of one quarter of wheat</span>, x blacking, y silk, z gold, &c., must, as exchange values, be replaceable by each other<br>
+, or equal to each other. Therefore, first: the valid exchange values of a given commodity express something equal; secondly<br>
+, exchange value, generally, is only the mode of expression, the phenomenal form, of something contained in it, yet distinguishable from it.</p>
+
+
+</body>
+</html>

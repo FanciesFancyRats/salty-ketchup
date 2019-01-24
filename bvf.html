@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+nav a{
+	display:block;
+}
+nav{
+	width: 12em;
+}
+nav a:focus{
+	background: wheat;
+}
+nav a:hover{
+	background: wheat;
+}
+
+#rollcall li{
+	display: inline;
+	border-right: 1px solid;
+	padding: 0 0.33em;
+}
+#rollcall li:first-child{
+	border-left: 1px solid;
+}
+#rollcall {
+	margin: 1em 0 0 0;
+	padding: 0;
+}
+div.noSize{
+	background-color: orangered;
+	width: 200px;
+	height: 200px;
+	padding: 25px;
+}
+div.sized{
+	background-color: peachpuff;
+	box-sizing: border-box;
+	width: 200px;
+	height: 200px;
+	padding: 25px;
+}
+div.sizedA{
+	background-color: hotpink;
+	box-sizing: padding-box;
+	width: 200px;
+	height: 200px;
+	padding: 25px;
+}
+div.sizedB{
+	
+	background-color: deeppink;
+	box-sizing: content-box;
+	width: 200px;
+	height: 200px;
+	padding: 25px;
+}
+p.wide{
+	width: 200px;
+	letter-spacing: 2ex;
+}
+p.wide2{
+	width: 200px;
+	letter-spacing: 2ex;
+	margin: 20px;
+	padding: 10px;
+}
+p.wide3{
+	box-sizing: border-box;
+	width: auto;
+	letter-spacing: 2ex;
+	margin: 20px;
+	padding: 10px;
+}
+p.constrained{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	background-color: papayawhip;
+}
+div.constrained{
+	width: 500px;
+	background-color: dodgerblue;
+}
+div.neg{
+	width: 500px;
+	color: honeydew;
+	border: 3px solid slateblue;
+}
+p.neg{
+	margin-left: 10px;
+	width: auto;
+	margin-right: -50px;
+	background-color: tomato;
+}
+div.neg2{
+	width: 500px;
+	background-color: honeydew;
+	border: 3px solid coral;
+}
+p.neg2{
+	margin-left: 10px;
+	width: 600px;
+	margin-right: auto;
+	border: 2px solid rosybrown;
+	background-color: orchid;
+}
+div.neg3{
+	width: 500px;
+	background-color: indigo;
+	border: 3px solid springgreen;
+}
+p.neg3{
+	margin-left: -50px;
+	width: 600px;
+	margin-right: auto;
+	border: 2px solid lemonchiffon;
+	background-color: seagreen;
+}
+p.vf{
+	display: inline-block;
+	height: 5em;
+	background-color: lemonchiffon;
+	width: 33%;
+	padding:0;
+	margin:0;
+}
+
+p.vf2{
+	display: inline-block;
+	height: 2em;
+	background-color: lavenderblush;
+	width: 30%;
+	padding: 0;	
+	margin: 0;
+}
+
+p.vf3{
+	display: inline-block;
+	height: 2em;
+	overflow: scroll;
+	background-color: darkgreen;
+	width: 33%;
+	padding: 0;
+	margin: 0;
+}
+ul.p280{
+	margin-bottom: 15px; 
+	border: 1px dodgerblue solid;
+	
+}
+li.p280{
+	margin-top: 10px; margin-bottom: 20px;
+}
+h1.p280{
+	margin-top:28px;
+	border: 1px coral solid;
+}
+div.p281{ border: 2px forestgreen solid;
+
+}
+p.p281{
+	background-color: seagreen;
+	margin-bottom: 0.5em;
+}
+p.p282{
+	background-color: darkgreen;
+	margin-top: -1em;
+}
+</style>
+</head>
+
+<body>
+	<nav>
+		<a href="index.html">WidgitCo Home</a>
+		<a href="index.html">Products </a>
+		<a href="index.html">Services</a>
+		<a href="index.html">Widgit Fun</a>
+		<a href="index.html">Contact</a>
+	</nav>
+
+	<ul id="rollcall">
+		<li>Emi I.</li>
+		<li>Rin T.</li>
+		<li>Lilly S.</li>
+		<li>Hanako</li>
+		<li>Shizune</li>
+		<li>Misha</li>
+	</ul>
+
+	<span style="display:block; border:1px solid">
+		<p style="display:inline">This is wrong</p>
+	</span>
+	<div class="sizedA"><p>Sweetie Moe, oh baby, oh maybe, oh baby, oh maybe. Say whoa!</p></div>
+	<div class="noSize"><p>That's the way uh-huh I like it, that's the way uh-huh I like it.</p></div>
+	<div class="sized"><p>do you remember the 21st night of september, i don't but i know it's a song.</p></div>
+	<div class="sizedB"><p>Say whoa! Whoa! Say Moe! Moe! Say Whoa! Whoa! Everybody put your hands up!</p></div>
+
+	<p class="wide">Wideness?</p>
+	<p class="wide2">Wideness?</p>
+	<p class="wide3">Wideness?</p>
+	<div class="constrained">
+		<p class="constrained">a paragraph</p>
+	</div>
+
+	<div class="neg">
+		<p class="neg">words word</p>
+	</div>
+
+	<div class="neg2">
+		<p class="neg2">words word</p>
+	</div>
+	<div class="neg3">
+		<p class="neg3">words word</p>
+	</div>
+	<img src="health.png" style="display: block; width: 50px; margin:0;">
+	<img src="health.png" style="display: block; width: 100px; margin:0;">
+	<img src="health.png" style="display: block; width: 150px; margin:0;">
+	<div style="border: 2px black solid; height: 10em; width: 99vw; vertical-align: bottom;">
+	<p class="vf">This is though</p>
+	<p class="vf">I continue to write some wo</p>
+	<p class="vf">What?</p>
+	</div>
+	<ul class="p280">
+		<li class="p280">This is a list item</li>
+		<li class="p280">This is also a list item</li>
+		<li class="p280">This is an example of vertical margins collapsing</li>
+	</ul>
+		<h1 class="p280">A heading -1</h1>
+	<div class="p281">
+		<p class="p281">This paragraph has a bottom margin of 0.5em and will interact with the negative top margin below</p>
+		<p class="p282">This paragraph has a top margin of -1em</p>
+	</div>
+	
+	<div style="width: 420px; background-color: darkgreen; padding: 10px; margin-top: 50px; border: 1px solid;">
+		<p style="margin-top: -50px; margin-right: 10px; margin-left: 10px; margin-bottom: 0; border: 3px solid grey"> A paragraph</p>
+	A div.
+	<p style="background-color: hotpink; border: 2px solid lightblue;">What will happen here?</p>
+	</div>
+	<p style="background-color: lawngreen; border: 2px solid wheat;">What will happen here?</p>
+
+	<p style="font-size: 12px; line-height: 12px; border: 1px solid black">
+	This is text, <em>some of which is emphasized</em>,<br>
+	plus other text that is <strong style="font-size: 24px;">strong</strong>
+	and <span style="vertical-align: top;">tall</span> and is<br>
+	larger than the surrounding text.
+	</p>
+
+	<p style="font-size: 12px; line-height: 12px; border: 1px solid black">
+	This is text, <em>some of which is emphasized</em>,<br>
+	plus other text that is <strong style="font-size: 24px;">strong</strong>
+	and <span style="vertical-align: top; line-height: 2px">tall</span> and is<br>
+	larger than the surrounding text.
+	</p>
+
+	<p style="font-size: 12px; line-height: 12px; border: 1px solid black">
+	This is text, <em>some of which is emphasized</em>,<br>
+	plus other text that is <strong style="font-size: 24px;">strong</strong>
+	and <span style="vertical-align: top; line-height: 18px">tall</span> and is<br>
+	larger than the surrounding text.
+	</p>
+
+	
+	
+</body>
+</html>

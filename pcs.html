@@ -42,6 +42,21 @@ strong{ font-weight: bolder;
 	font-size: smaller;}
 strong b{font-weight: bolder;}
 small{ font-size: 25%;}
+.obnoxious{
+	text-decoration: overline;
+}
+.rise {
+	vertical-align: super;
+}
+ul li{
+	letter-spacing: 0.25em;
+}
+ul > li:nth-child(2n){
+	color: midnightblue;
+}
+li > span:nth-child(2n){
+	color:orchid;
+}
 </style>
 	</head>
 	<body>
@@ -49,11 +64,11 @@ small{ font-size: 25%;}
 	<h1 id="title">More <em>Words</em></h1>
 	<img src="health.png"></img>
 	<ul id="song">
-		<li>Avoidance bath bunker</li>
-		<li>convergence Downhill FOREST</li>
-		<li>GAL <strong>gekanheya </strong> gone HAP</li>
-		<li>INSIDE lessons NOTHAP or OUTSIDE</li>
-		<li>OUTSIDE OVER panics Pianonism prison ROOM</li>
+		<li><span>Avoidance</span> <span>bath</span> <span>bunker</span></li>
+		<li><span>convergence</span> <span>Downhill</span> <span class="obnoxious">FOREST</span></li>
+		<li><span>GAL</span> <strong>gekanheya </strong> <span>gone</span> <span>HAP</span></li>
+		<li><span>INSIDE</span> <span>lessons</span> <span>NOTHAP</span> <span>or</span> <span>OUTSIDE</span></li>
+		<li><span>OUTSIDE</span> <span>OVER</span> <span class="rise">panics</span> <span>Pianonism</span> <span>prison</span> <span>ROOM</span></li>
 	</ul>
 	</body>
 	<p>Can you hear me? <span>I don't think you can<strong> parse</strong> </span>it right now though</p>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div{margin: 1em 0; border: 1px solid coral;}
+p.b {border: 1px dodgerblue dashed;}
+div#one p {display: block; width: 6em; text-align: center;}
+div#two p {display: inline; width: 6em; text-align: center;}
+div#three p {display: inline-block;height: 4em; text-align: center;}
+ul.con {border: 1px solid tomato; display: contents; width: 45%;}
+li {border: 1px solid palegreen;}
+ul {border: 1px solid seagreen; width:35%;}
+h1 {padding: 1px 20px 5px 15px; margin: 0;}
+article p.m:first-child {border-top: 1px solid orchid;}
+p.m{ margin: 0; padding: 0.5em 0; border-bottom: 1px solid orchid; border-left: 3px double magenta;}
+p.s{}
+strong{padding-left: 2em; padding-right: 2em; background: deeppink;}
+img{height: 20px; padding: 10px; background-color: maroon;}
+a:link img{border: outset 2px;}
+a:visited img{border: inset 2px;}
+img.border{border: inset 2px;}
+h1 {border-style: solid; border-width: 0px 0px 10px 0px ; border-color: fuchsia mediumvioletred;}
+h2 {border: 25px solid; border-image-source: url(health.png);}
+
+
+</style>
+</head>
+<body>
+	<div id="one">
+		This text is the content of a block-level level element. Within this
+		block-level element is another block-level element. <p class="b">Look, it's a block-level
+		paragraph.</p> Here's the rest of the Div, which is still block-level.
+	</div>
+	<div id="two">
+		This text is the content of a block-level level element. Within this
+		block-level element is an inline element. <p class="b">Look, it's an inline
+		paragraph.</p> Here's the rest of the Div, which is still block-level.
+	</div>
+	<div id="three">
+		This text is the content of a block-level level element. Within this
+		block-level element is an inline element. <p class="b">Look, it's an block-inline
+		paragraph.</p> Here's the rest of the Div, which is still block-level.
+	</div>
+
+	<ul>
+		<li>The first item</li>
+		<li>The second item: electric bugaloo</li>
+		<li>List item the third</li>
+	</ul>
+
+	<ul class="con">
+		<li>The first item</li>
+		<li>The second item: electric bugaloo</li>
+		<li>List item the third</li>
+	</ul>
+	<h1>An h1 element</h1>
+	<article>	
+	<p class="m">A given commodity, e.g., a quarter of wheat is exchanged for x blacking, y silk, or z gold, &c. – in short, for other commodities in the most different proportions. Instead of one exchange value, the wheat has, therefore, a great many. But since x blacking, y silk, or z gold &c., each represents the exchange value of one quarter of wheat, x blacking, y silk, z gold, &c., must, as exchange values, be replaceable by each other</p>
+
+	<p class="m">A given commodity, e.g., a quarter of wheat is exchanged for x blacking, y silk, or z gold, &c. – in short, for other commodities in the most different proportions. Instead of one exchange value, the wheat has, therefore, a great many. But since x blacking, y silk, or z gold &c., each represents the exchange value of one quarter of wheat, x blacking, y silk, z gold, &c., must, as exchange values, be replaceable by each other</p>
+
+	<p class="m">A given commodity, e.g., a quarter of wheat is exchanged for x blacking, y silk, or z gold, &c. – in short, for other commodities in the most different proportions. Instead of one exchange value, the wheat has, therefore, a great many. But since x blacking, y silk, or z gold &c., each represents the exchange value of one quarter of wheat, x blacking, y silk, z gold, &c., must, as exchange values, be replaceable by each other</p>
+	</article>
+	<p class='s'>The coat is a use value that satisfies a particular want. Its existence is the result of a special sort of productive
+	activity, the nature of which is determined by its aim, mode of operation, subject, means, and result.<strong> The labour, whose utility		is thus represented by the value in use of its product, or which manifests itself by making its product a use value, we	call useful labour.</strong> In this connection we consider only its useful effect.</p>
+
+	<p>This paragraph contains an inline replaced element - in this case, an image - which has been styled with padding and a background. <img src="health.png"> This <strong>does</strong> affect the line heights as explained in the text.</p>
+	<a href="something.html"><img src="health.png"></a>
+	<a href="index.html"><img src="health.png"></a>
+	<img class="border" src="health.png">
+	<h2>This has a border?</h2>
+
+</body>
+</html>
