@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.a{
+	position: fixed;
+	top: 50%;
+	right: 0;
+	left: 50%;
+	bottom: 0;
+	height: 100px;
+	width: 100px;
+	border: 1px solid black;
+}
+div.b{top: 50%; bottom: -2em; left: 75%; right -7em; position: fixed; background-color: pink; height: 50%; width: 50%;}
+div.a:hover{
+	background-color: deeppink;
+	box-shadow: -10px 10px 0px black;
+}
+div.c{position: absolute; bottom: 0; left:50%; height:300px; width:500px; border: 5px solid; background-color: violet; margin-left: -300px;}
+div.containing{height: 50vh; width: 50vw; top: 50%; left: 50%; border: 2px solid;}
+div.d{background-color: honeydew; height: 50px; width: 50px;bottom: -1em; right: -3em; border: 2px solid black; position: relative;}
+div.e{position: relative; background-color: darkblue; top: 0; bottom: 0; left: 0; right: 50%; height: 100px; width: 100px;}
+</style>
+</head>
+<body>
+	<div class="a"></div>
+	<div class="b"></div>
+	<div class="c"></div>
+	<div class="containing">
+		<div class="d"></div>	
+		<div class="e"></div>
+	</div>
+
+</body>
+</html>

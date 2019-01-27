@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{ /*background: tan center/ 25px 25px repeat radial-gradient(circle at center, rgba(0, 0, 0, 0.1), rgba(0,0,0,0.1) 10px, transparent 10px, transparent);} */
+	background-color: black;
+	background-image: repeating-linear-gradient(65deg,transparent 0, violet 4px, violet 4px, transparent 8px, transparent 25px), repeating-linear-gradient(340deg, transparent 0, violet 4px, violet 4px, transparent 8px, transparent 25px);
+	background-attachment: fixed;
+	}
+div.a{
+	background-image: radial-gradient(transparent 0, transparent 20px, gold 20px, gold 40px, transparent 40px );
+	
+	height: 200px;
+	width: 200px;
+}
+div.b{
+	background-color: maroon;
+	height: 400px;
+	width: 400px;
+	background-image: repeating-linear-gradient(black 0, black 5px, transparent 5px, transparent 10px), repeating-linear-gradient(90deg, blue 0, blue 5px, transparent 5px, transparent 10px);
+}
+
+div.c{
+	background-color: black;
+	height: 400px;
+	width: 400px;
+	background-image: repeating-linear-gradient(65deg,transparent 0, yellow 4px, yellow 4px, transparent 8px, transparent 25px), repeating-linear-gradient(340deg, transparent 0, yellow 4px, yellow 4px, transparent 8px, transparent 25px); 
+	background-attachment: fixed;
+}
+div.d{
+	background-color: black;
+	height: 400px;
+	width: 800px;
+	background-image: repeating-linear-gradient(65deg,transparent 0, seagreen 4px, seagreen 4px, transparent 8px, transparent 25px), repeating-linear-gradient(340deg, transparent 0, seagreen 4px, seagreen 4px, transparent 8px, transparent 25px); 
+	background-attachment: fixed;
+}
+
+div.e{
+	background-color: black;
+	height: 100px;
+	width: 100px;
+	background-image: repeating-linear-gradient(65deg,transparent 0, limegreen 4px, limegreen 4px, transparent 8px, transparent 25px), repeating-linear-gradient(340deg, transparent 0, limegreen 4px, limegreen 4px, transparent 8px, transparent 25px); 
+	background-attachment: fixed;
+	box-shadow: 10px 10px 5px black; 
+	border: 5px solid grey;
+}
+</style>
+</head>
+<body>
+	<h1>This is something</h1>
+	<div class="a"></div>
+	<div class="d"><div class="e"></div></div>
+	<div class="c"></div>
+</body>
+</html>
